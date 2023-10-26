@@ -26,4 +26,12 @@ public class LeapYearTest {
 
     }
 
+    // ---- Non leap years ----
+
+    @ParameterizedTest
+    @ValueSource(ints = {2021, 2022, 2023})
+    public void testNonLeapYearIsNotDivisibleBy4(int year){
+        assertFalse(LeapYear.isLeapYear((year)));
+    }
+
 }
