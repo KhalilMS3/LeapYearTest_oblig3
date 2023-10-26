@@ -19,6 +19,11 @@ public class LeapYearTest {
         assertTrue(LeapYear.isLeapYear((year)));
     }
 
+    @ParameterizedTest
+    @ValueSource(ints = {1600, 2000, 2400})
+    public void testLeapYearIsDivisibleBy400(int year){
+        assertTrue(LeapYear.isLeapYear((year)));
 
+    }
 
 }
