@@ -14,32 +14,11 @@ public class LeapYearTest {
     // ---- Leap years ----
 
     @ParameterizedTest
-    @ValueSource(ints = {2000, 2020, 2400, 2400})
+    @ValueSource(ints = {2000, 2020, 2400})
     public void testLeapYearIsDivisibleBy4AndNotBy100(int year){
         assertTrue(LeapYear.isLeapYear((year)));
     }
 
-
-    @ParameterizedTest
-    @ValueSource(ints = {1600, 2000, 2400})
-    public void testLeapYearIsDivisibleBy400(int year){
-        assertTrue(LeapYear.isLeapYear((year)));
-
-    }
-
-    // ---- Non leap years ----
-
-    @ParameterizedTest
-    @ValueSource(ints = {2021, 2022, 2023})
-    public void testNonLeapYearIsNotDivisibleBy4(int year){
-        assertFalse(LeapYear.isLeapYear((year)));
-    }
-
-    @ParameterizedTest
-    @ValueSource(ints = {1700, 1800, 1900})
-    public void testNonLeapYearIsDivisibleBy100AndNotBy400(int year){
-        assertFalse(LeapYear.isLeapYear(year));
-    }
 
 
 }

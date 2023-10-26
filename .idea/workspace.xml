@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8d36102-e6ca-4028-b6a6-954f35442327" name="Changes" comment="">
+    <list default="true" id="f8d36102-e6ca-4028-b6a6-954f35442327" name="Changes" comment="testLeapYearIsDivisibleBy4AndNotBy100 with 2400 as year">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/xalil/OneDrive/Dokumenter/GitHub/testDelbrin",
+    "last_opened_file_path": "C:/Users/xalil/OneDrive/Dokumenter/GitHub/LeapYearTest_oblig3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -104,11 +104,23 @@
       <workItem from="1697908367545" duration="11000" />
       <workItem from="1698298826709" duration="2367000" />
       <workItem from="1698330047231" duration="3800000" />
+      <workItem from="1698338098103" duration="690000" />
     </task>
+    <task id="LOCAL−00001" summary="testLeapYearIsDivisibleBy4AndNotBy100 with 2400 as year">
+      <created>1698338180193</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1698338180195</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="testLeapYearIsDivisibleBy4AndNotBy100 with 2400 as year" />
+    <option name="LAST_COMMIT_MESSAGE" value="testLeapYearIsDivisibleBy4AndNotBy100 with 2400 as year" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
